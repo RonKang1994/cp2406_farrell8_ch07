@@ -13,7 +13,7 @@ public class FixDebugSeven1
       if(name1 == name3)
         System.out.println(name1 + " and " + name3 +
           " are the same");
-      if(name1 == "roger")
+      if(name1.toLowerCase() == "roger")
         System.out.println(name1 + " and 'roger' are the same");
       if(name1 == "Roger")
         System.out.println(name1 + " and 'Roger' are the same");
